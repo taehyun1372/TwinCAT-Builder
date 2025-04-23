@@ -5,16 +5,28 @@ VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinCAT_Builder", "TwinCAT_Builder\TwinCAT_Builder.csproj", "{9009909C-2799-4293-9DE4-A946A999C893}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TwinCAT_Builder_Setup", "TwinCAT_Builder_Setup\TwinCAT_Builder_Setup.vdproj", "{56F73B3F-CD85-4EBA-AB8B-496BE7D57C94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9009909C-2799-4293-9DE4-A946A999C893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9009909C-2799-4293-9DE4-A946A999C893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9009909C-2799-4293-9DE4-A946A999C893}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{9009909C-2799-4293-9DE4-A946A999C893}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{9009909C-2799-4293-9DE4-A946A999C893}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9009909C-2799-4293-9DE4-A946A999C893}.Debug|x86.Build.0 = Debug|Any CPU
 		{9009909C-2799-4293-9DE4-A946A999C893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9009909C-2799-4293-9DE4-A946A999C893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9009909C-2799-4293-9DE4-A946A999C893}.Release|x86.ActiveCfg = Release|Any CPU
+		{9009909C-2799-4293-9DE4-A946A999C893}.Release|x86.Build.0 = Release|Any CPU
+		{56F73B3F-CD85-4EBA-AB8B-496BE7D57C94}.Debug|Any CPU.ActiveCfg = Debug
+		{56F73B3F-CD85-4EBA-AB8B-496BE7D57C94}.Debug|x86.ActiveCfg = Debug
+		{56F73B3F-CD85-4EBA-AB8B-496BE7D57C94}.Release|Any CPU.ActiveCfg = Release
+		{56F73B3F-CD85-4EBA-AB8B-496BE7D57C94}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
